@@ -14,20 +14,27 @@ body {
 
 /* Navigation bar */
 nav {
-    background-color: #07152a; /* Darker navy */
+    
+    background-color: #07152a; 
     padding: 15px;
     text-align: center;
 }
 
+
+nav a::before {
+    content: "✔ ";
+    color: #ffffff; 
+    font-weight: bold;
+}
+
 nav a {
-    list-style-type: disc;
     color: white;
     margin: 0 15px;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #4da6ff; /* Light blue hover */
+    color: #4da6ff; 
 }
 
 /* Hero Section */
@@ -51,7 +58,7 @@ nav a:hover {
 
 #FeatureCards div {
     background-color: white;
-    color: #0b1f3a; /* Navy text */
+    color: #0b1f3a; 
     padding: 20px;
     border-radius: 10px;
     width: 30%;
@@ -79,10 +86,4 @@ img {
 hr {
     border: 1px solid #4da6ff;
     margin: 20px 0;
-}
-
-/* Div */
-
-#ImageCentering {
-    
 }
